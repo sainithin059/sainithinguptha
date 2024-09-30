@@ -124,7 +124,7 @@ const Contact = () => {
           <div className="flex flex-col xl:flex-row gap-[30px]">
             <div className="xl:h-[54%] order-2 xl:order-none w-full xl:w-[50%]">
               <form method="POST" onSubmit={handleSubmit} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-                <h3 className="text-4xl text-accent">Let's work together</h3>
+                <h3 className="text-4xl text-accent">Let's work together...</h3>
                 <p className="text-white/60">
                   I specialize in writing APIs using ASP.NET and have solid skills
                   in database management and SQL servers. I am also proficient in
