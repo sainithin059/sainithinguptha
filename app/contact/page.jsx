@@ -21,17 +21,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+91) 7337404176",
+    description: "(+91) 7396651028",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "abhishake62232@gmail.com",
+    description: "sainithinguptha@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Rayadurg, 515865, Andhra Pradesh, India",
+    description: "Darsi, 523247, Andhra Pradesh, India",
   },
 ];
 
@@ -71,7 +71,7 @@ const Contact = () => {
 
     try {
       // First, send data to the SheetDB API
-      const sheetdbResponse = await fetch("https://sheetdb.io/api/v1/ifyres7meu6qv", {
+      const sheetdbResponse = await fetch("https://sheetdb.io/api/v1/dlhrfpkfa2lmx", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -126,7 +126,7 @@ const Contact = () => {
               <form method="POST" onSubmit={handleSubmit} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                 <h3 className="text-4xl text-accent">Let's work together...</h3>
                 <p className="text-white/60">
-                  I specialize in writing APIs using ASP.NET and have solid skills
+                  I Skilled in writing APIs using ASP.NET and have solid skills
                   in database management and SQL servers. I am also proficient in
                   various programming languages and technologies.
                 </p>

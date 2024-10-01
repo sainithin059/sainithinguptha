@@ -28,9 +28,7 @@ const projects = [
       {
         name: 'CSS',
       },
-      {
-        name: 'Figma',
-      },
+      
       {
         name: 'React/next.js',
       },
@@ -41,8 +39,8 @@ const projects = [
   {
     num: '02',
     category: 'Web Application',
-    title: 'Machine Learning based Air Quality Index Forcasting',
-    description: 'A web application that predicts/forcast the air quality is good/bad',
+    title: 'Machine Learning based Brain Tumor Detection',
+    description: 'A mobile app that predicts whether a tumor is present or not',
     stack: [
       {
         name: 'Python',
@@ -52,29 +50,24 @@ const projects = [
       }
     ],
     image: '/assets/work/thumb8.png',
-    link: "https://drive.google.com/file/d/1l_-80w8fGMbgtBafAf7MnviBLstz6ZmZ/view?usp=sharing"
+    link: ""
   },
   {
     num: '03',
-    category: 'Transporting Application',
-    title: 'Transporting Goods Application',
-    description: 'This is a freelance project that enables users to transport goods from one location to another.',
+    category: 'machine learning',
+    title: 'Demand Forecasting Using Machine Learning',
+    description: 'It is used for estimating future customer demand for a particular goods',
     stack: [
       {
-        name: 'Next.js',
+        name: 'Python',
       },
+
       {
-        name: 'Prisma Client',
-      },
-      {
-        name: 'React',
-      },
-      {
-        name: 'PostgreSQL',
+        name: 'Colab',
       }
     ],
     image: '/assets/work/thumb6.png',
-    link: "https://www.linkfreight.in/"
+    link: ""
   },
   {
     num: '04',
@@ -130,38 +123,7 @@ const projects = [
     image: '/assets/work/thumb7.png',
     link: "https://github.com/linkfreight/admin-panel"
   },
-  {
-    num: '07',
-    category: 'Face Detection',
-    title: 'Face Detection',
-    description: 'Face Detection using OpenCV',
-    stack: [
-      {
-        name: 'Python',
-      },
-      {
-        name: 'OpenCV',
-      }
-    ],
-    image: '/assets/work/thumb3.png',
-    link: "https://github.com/abhishakejutur/projects/tree/qrcode_scanner/Image%20Processing%20Projects/Face%20Detection"
-  },
-  {
-    num: '08',
-    category: 'Call logs Access',
-    title: 'Call logs Access Data',
-    description: 'A flutter application to access call logs data from the phone',
-    stack: [
-      {
-        name: 'Flutter',
-      },
-      {
-        name: 'Dart',
-      }
-    ],
-    image: '/assets/work/thumb2.png',
-    link: "https://github.com/abhishakejutur/call_logs_access_app_6"
-  },
+  
 ]
 
 const Work = () => {

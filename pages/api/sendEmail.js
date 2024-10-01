@@ -7,19 +7,19 @@ export default async function handler(req, res) {
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'abhishake62232@gmail.com',
-        pass: 'lyzo pqby duwc xbvi',
+        user: 'sainithinguptha@gmail.com',
+        pass: 'wwys aknf pdxc bmwd',
       },
     });
 
     let mailOptions = {
-      from: 'abhishake62232@gmail.com',
-      to: 'abhishake62232@gmail.com',
+      from: 'sainithinguptha@gmail.com',
+      to: 'sainithinguptha@gmail.com',
       subject: `AJ-Portfolio - New notification from ${firstname} ${lastname}`,
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
           <div style="background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-            <h2 style="color: #333;">Hey Abhi! You got a new message from ${firstname} ${lastname}.</h2>
+            <h2 style="color: #333;">Hey Sai! You got a new message from ${firstname} ${lastname}.</h2>
             <div style="text-align: center; margin-bottom: 20px;">
               <img src="https://drive.google.com/uc?id=1Onh-LJdr7gl1VzfGet_lGogBAAB_lkpj" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
             </div>
@@ -56,7 +56,7 @@ export default async function handler(req, res) {
     };
 
     let autoReplyOptions = {
-      from: 'abhishake62232@gmail.com',
+      from: 'sainithinguptha@gmail.com',
       to: email,
       subject: `Hey ${firstname}, Thank you for visiting my portfolio!`,
       html: `
@@ -67,7 +67,7 @@ export default async function handler(req, res) {
               <img src="https://drive.google.com/uc?id=1Onh-LJdr7gl1VzfGet_lGogBAAB_lkpj" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
             </div>
             <p style="color: #555;">
-              This is Jutur Abhishake. I hope this email finds you well. Thank you for visiting my portfolio and expressing interest in my ${service} services.
+              This is Desu Venkata Sai Nithin Guptha. I hope this email finds you well. Thank you for visiting my portfolio and expressing interest in my ${service} services.
             </p>
             <p style="color: #555;">
               I'm thrilled about the opportunity to collaborate with you on your project. Having reviewed your requirements, I am confident that my skills and experience align well with your needs.
@@ -111,12 +111,12 @@ export default async function handler(req, res) {
             <p style="color: #555;">You can connect with me or explore my portfolio through the following links:</p>
             <div style="text-align: center; margin-top: 20px;">
               <div>
-                <a href="https://in.linkedin.com/in/abhishakejutur" style="text-decoration: none; width: 50%;">
+                <a href="https://www.linkedin.com/in/sainithindesu" style="text-decoration: none; width: 50%;">
                   <button style="background-color: #0073b1; border: none; color: white; padding: 12px 24px; font-size: 16px; cursor: pointer; border-radius: 8px; width: 100%; transition: background-color 0.3s ease;">
                     LinkedIn Profile
                   </button>
                 </a><br /><br />
-                <a href="https://aj-portfolio-five.vercel.app" style="text-decoration: none; width: 50%;">
+                <a href="#" style="text-decoration: none; width: 50%;">
                   <button style="background-color: #28a745; border: none; color: white; padding: 12px 24px; font-size: 16px; cursor: pointer; border-radius: 8px; width: 100%; transition: background-color 0.3s ease;">
                     Visit My Portfolio
                   </button>
@@ -124,9 +124,9 @@ export default async function handler(req, res) {
               </div>
             </div>
             <p style="margin-top: 20px; color: #555;">Best regards,</p>
-            <p style="color: #555;">Jutur Abhishake</p>
+            <p style="color: #555;">Desu Venkata Sai Nithin Guptha</p>
             <p style="color: #555;">Full Stack Developer</p>
-            <p style="color: #555;">+91 7337404176</p>
+            <p style="color: #555;">+91 7396651028</p>
           </div>
         </div>
         <style>
