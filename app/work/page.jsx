@@ -34,7 +34,7 @@ const projects = [
       },
     ],
     image: '/assets/work/thumb1.png',
-    link: "https://aj-portfolio-five.vercel.app/"
+    link: "https://sainithinguptha.vercel.app/"
   },
   {
     num: '02',
