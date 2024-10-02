@@ -25,8 +25,8 @@ const services = [
   },
   {
     num: '04',
-    title: 'Application Development',
-    description: 'I can build applications using Flutter.',
+    title: 'UIUX',
+    description: 'I can design dynamic User Interface using Figma and Next.js.',
     href: "https://github.com/abhishakejutur/call_logs_access_app_6"
   }
 ];

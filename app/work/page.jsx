@@ -38,7 +38,7 @@ const projects = [
   },
   {
     num: '02',
-    category: 'Web Application',
+    category: 'Machine Learning based Brain Tumor Detection',
     title: 'Machine Learning based Brain Tumor Detection',
     description: 'A mobile app that predicts whether a tumor is present or not',
     stack: [
@@ -49,12 +49,12 @@ const projects = [
         name: 'PostgreSQL',
       }
     ],
-    image: '/assets/work/thumb8.png',
+    image: '/assets/work/thumb4.png',
     link: ""
   },
   {
     num: '03',
-    category: 'machine learning',
+    category: 'Demand Forecasting Using Machine Learning',
     title: 'Demand Forecasting Using Machine Learning',
     description: 'It is used for estimating future customer demand for a particular goods',
     stack: [
@@ -66,64 +66,41 @@ const projects = [
         name: 'Colab',
       }
     ],
-    image: '/assets/work/thumb6.png',
-    link: ""
+    image: '/assets/work/thumb5.png',
+    link: "https://drive.google.com/file/d/16GoybIJyJpCNA5iHjIWAhVghdvaXbrZf/view"
   },
   {
     num: '04',
-    category: 'Admin Panel',
-    title: 'Admin Panel Application',
-    description: 'This is an admin panel for administrators to monitor and manage user activities, track shipments, and oversee the overall transportation process.',
+    category: 'Master Data Management',
+    title: 'Master Data Management',
+    description: 'This project was completed during my time at GreenTech Industries pvt ltd. It is a web application designed to modify and display the Master Management data.',
     stack: [
       {
-        name: 'ASP.NET MVC',
+        name: '.NET Core',
       },
       {
-        name: 'Next.js',
-      },
-      {
-        name: 'PostgreSQL',
+        name: 'SQL Server',
       }
     ],
-    image: '/assets/work/thumb10.png',
+    image: '/assets/work/thumb2.png',
     link: "https://github.com/linkfreight/admin-panel"
   },
   {
     num: '05',
-    category: 'CHVApps',
-    title: 'CHVApps',
-    description: 'This project is a website for a software company specializing in web development and digital solutions.',
+    category: 'Production Planning',
+    title: 'Production Planning',
+    description: ' This project while I worked at GreenTech Industries Pvt. Ltd. It a designed web application.It is used to predict the next six months of material needs for the warehouse.',
     stack: [
       {
-        name: 'Next.js',
+        name: '.NET Core',
       },
       {
-        name: 'nodemailer',
+        name: 'SQL Server',
       }
     ],
-    image: '/assets/work/thumb9.png',
+    image: '/assets/work/thumb3.png',
     link: "https://chvapps.vercel.app/"
-  },
-  {
-    num: '06',
-    category: 'Admin Panel',
-    title: 'Admin Panel Application',
-    description: 'This project was completed during my time at RideAllot Solutions. It is a web application designed to track and display user behavior data.',
-    stack: [
-      {
-        name: 'ASP.NET MVC',
-      },
-      {
-        name: 'Next.js',
-      },
-      {
-        name: 'PostgreSQL',
-      }
-    ],
-    image: '/assets/work/thumb7.png',
-    link: "https://github.com/linkfreight/admin-panel"
-  },
-  
+  }
 ]
 
 const Work = () => {

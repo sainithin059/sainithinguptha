@@ -15,13 +15,13 @@ export default async function handler(req, res) {
     let mailOptions = {
       from: 'sainithinguptha@gmail.com',
       to: 'sainithinguptha@gmail.com',
-      subject: `AJ-Portfolio - New notification from ${firstname} ${lastname}`,
+      subject: `SAI NITHIN - New notification from ${firstname} ${lastname}`,
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
           <div style="background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <h2 style="color: #333;">Hey Sai! You got a new message from ${firstname} ${lastname}.</h2>
             <div style="text-align: center; margin-bottom: 20px;">
-              <img src="https://drive.google.com/uc?id=1Onh-LJdr7gl1VzfGet_lGogBAAB_lkpj" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
+              <img src="https://drive.google.com/uc?id=1QIvKtNWQiP_D07TfDfsytk4akerz_5bo" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
             </div>
             <p style="color: #555;">The user details are below:</p>
             <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -64,7 +64,7 @@ export default async function handler(req, res) {
           <div style="background-color: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <h2 style="color: #333;">Hey ${firstname} ${lastname}!</h2><br />
             <div style="text-align: center; margin-bottom: 20px;">
-              <img src="https://drive.google.com/uc?id=1Onh-LJdr7gl1VzfGet_lGogBAAB_lkpj" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
+              <img src="https://drive.google.com/uc?id=1QIvKtNWQiP_D07TfDfsytk4akerz_5bo" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 20px;" alt="Profile Image"/>
             </div>
             <p style="color: #555;">
               This is Desu Venkata Sai Nithin Guptha. I hope this email finds you well. Thank you for visiting my portfolio and expressing interest in my ${service} services.
