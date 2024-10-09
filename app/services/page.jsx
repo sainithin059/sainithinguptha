@@ -15,7 +15,7 @@ const services = [
     num: '02',
     title: 'Backend Development',
     description: 'I can build APIs and backend services using ASP.NET(C#)/Java/Pyhton.',
-    href: "https://github.com/abhishakejutur/projects"
+    href: "/work"
   },
   {
     num: '03',
@@ -27,7 +27,7 @@ const services = [
     num: '04',
     title: 'UIUX',
     description: 'I can design dynamic User Interface using Figma and Next.js.',
-    href: "https://github.com/abhishakejutur/call_logs_access_app_6"
+    href: "/work"
   }
 ];
 
